@@ -1,5 +1,10 @@
 @extends('layout.master')
-
+@section('style_up')
+    <link rel="stylesheet" href="{{ asset('css/index.css') }}">
+@endsection
+@section('style_down')
+    <link rel="stylesheet" href="{{ asset('css/index.css') }}">
+@endsection
 @section('content')
     
 <section>
