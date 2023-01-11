@@ -1,0 +1,142 @@
+:root{
+    --c1: #06283D;
+    --c2: #1363DF;
+    --c3: #47B5FF;
+    --c4: #DFF6FF;
+}
+
+
+
+@font-face {
+    font-family: 'Harmony'; /*a name to be used later*/
+    src: url('../fonts/HARMONY\ Personal\ use.otf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Shrimp'; /*a name to be used later*/
+    src: url('../fonts/SHRIMP.ttf'); /*URL to font*/
+}
+
+
+
+
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: 'Harmony';
+}
+p , a , li{
+    font-family: 'Shrimp';
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: var(--c4);
+    transition: 1s;
+}
+
+nav{
+    background-color: var(--c1);
+    display: flex;
+    align-items: center;
+    color: var(--c4);
+    min-height: 10vh;
+}
+.logo , .links , .fast-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--c4);
+    
+}
+
+.logo{
+    flex: 1;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 10%;
+    justify-content: flex-end;
+    
+}
+.logo .logo_img{
+    display: flex;
+    width: 50%;
+    min-height: 7vh;
+    margin-right: 15px;
+    
+}
+.links{
+    flex: 2;
+    justify-content: space-evenly;
+    width: 80%;
+    
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+} 
+.links ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:10vh ;
+}
+.links ul li a{
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.links ul li a:hover{
+    background-color: var(--c4);
+    color: var(--c1);
+    border-radius: 10px;
+    
+}
+.fast-btn{
+    flex: 1;
+    justify-content: flex-end;
+    width: 10%;
+    min-height:10vh ;
+  
+    justify-content: center;
+    align-items: center;
+}
+.fast-btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--c2);
+    color: var(--c4);
+    border-radius: 10px;
+    transition: 1s;
+    width: 60%;
+    min-height: 6vh;
+}
+.fast-btn a:hover{
+    background-color: var(--c4);
+    color: var(--c1);
+    border-radius: 15px;
+    
+}
+
+
+
+
+
+
+
+
+body{
+    background-color: var(--c4);
+    color: var(--c1);
+}
