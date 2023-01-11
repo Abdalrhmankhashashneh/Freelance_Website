@@ -3,8 +3,7 @@
 @section('content')
     
 <section>
-    <h1>Welcome to lordtik </h1>
-
+    <h1>hi mister abd </h1>
 </section>
 
 
