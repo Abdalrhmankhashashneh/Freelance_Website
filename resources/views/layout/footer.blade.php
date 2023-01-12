@@ -14,5 +14,8 @@
         
     </footer>
     
+    @yield('script_up')
+    <script src="{{ asset('js/main.js') }}"></script>
+    @yield('script_down')
 </body>
 </html>

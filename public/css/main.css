@@ -42,6 +42,7 @@ nav{
     display: flex;
     align-items: center;
     color: var(--c4);
+    padding: 50 0px;
     min-height: 10vh;
 }
 .logo , .links , .fast-btn{
@@ -127,6 +128,11 @@ nav{
     color: var(--c1);
     border-radius: 15px;
     
+}
+.link_active{
+    background-color: var(--c4);
+    color: var(--c1);
+    border-radius: 15px;
 }
 
 
