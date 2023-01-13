@@ -1,0 +1,40 @@
+:root{
+    --c1: #06283D;
+    --c2: #1363DF;
+    --c3: #47B5FF;
+    --c4: #DFF6FF;
+}
+
+.ciarcle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: var(--c1);
+    border: 10px solid var(--c4);
+    font-size: 4rem;
+    transition: 0.5s;
+    top:80%;
+    left: 45%;
+    animation: circle 2s linear infinite;
+}
+.ciarcle:hover{
+    border: 10px solid var(--c1);
+    width: 120px;
+    height: 120px;
+    FONT-SIZE: 5rem;
+    color: var(--c1);
+    
+}
+
+@keyframes circle{
+    0%{
+        transform: top(70%);
+    }
+    100%{
+        transform: top(80%);
+    }
+}

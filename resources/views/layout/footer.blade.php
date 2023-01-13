@@ -1,8 +1,7 @@
 
 
-<footer>
-    
-    <--! copyright -->
+{{-- <footer>
+ cx
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -12,7 +11,7 @@
             </div>
         </div>
         
-    </footer>
+    </footer> --}}
     
     @yield('script_up')
     <script src="{{ asset('js/main.js') }}"></script>

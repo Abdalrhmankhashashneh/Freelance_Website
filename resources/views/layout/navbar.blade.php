@@ -10,10 +10,19 @@
     @yield('style_down')
 </head>
 <body>
+
+    {{--  loading ... --}}
+    
+    <div class="loading">
+        <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+    </div>
+    {{--  loading ... --}}
+
     <header><nav>
         <div class="logo">
             <div class="logo_img">
-                <h1>LordTik</h1>
+                <h2>LordTik</h2>
             </div>
         </div>
         <div class="links">
