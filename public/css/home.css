@@ -9,8 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     position: fixed;
     background-color: var(--c1);
@@ -23,8 +23,8 @@
 }
 .ciarcle:hover{
     border: 10px solid var(--c1);
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     FONT-SIZE: 5rem;
     color: var(--c1);
     

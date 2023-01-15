@@ -10,38 +10,7 @@
 
 {{-- JS link here V --}}
 @section('script_down')
-<script>
-    window.scrollTo(0, 0);
-    ciarcle = document.querySelector('.arrow');
-    let bottom = 0;
-      bottom  = ciarcle.getBoundingClientRect().bottom;
-    let row = document.querySelectorAll('.row');
-      console.log(bottom);
-var i = 1;
-console.log(row);
-ciarcle.addEventListener('click', function (e) {
-e.preventDefault();
-    if( i < row.length){
-        if(i+1 == row.length){
-            ciarcle.innerHTML = 'X';
-        }
-        
-        row[i].scrollIntoView({
-            behavior: 'smooth'
-        });
-        i++;
-    }
-    else{
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-        ciarcle.innerHTML = 'V';
-        i = 1;
-    }
-    
-});
-</script>
+<script src="js/home.js"></script>
 @endsection
 
 
