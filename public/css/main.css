@@ -366,6 +366,54 @@ justify-content: center;
 
 
 
+footer{
+display: flex;
+width: 100%;
+
+align-items: center;
+background-color: var(--c1);
+color: var(--c4);
+flex-wrap: wrap;
+
+}
+ footer h3{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+ } 
+
+.copy{
+    display: flex;
+    width: 100%;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 8vh;
+    width: 100%;
+    background-color: var(--c1);
+    padding: 50px;
+}
+.social a {
+    font-size: 1.5rem;
+    transition: 1s;
+}
+
+.social a:hover{
+    color: var(--c3);
+
+}
+
+
+
+
+
+
 .lds-roller {
     display: inline-block;
     position: relative;

@@ -23,7 +23,7 @@
         <div class="logo">
             <div class="logo_img">
                 <a href="{{ route('home') }}">
-                    <img src="img/logo/logo.png" width="100px" alt="">
+                    <img src="img/logo/logo-light.png" width="100px" alt="">
                 </a>
             </div>
         </div>

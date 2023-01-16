@@ -5,7 +5,7 @@
 @endsection
 
 @section('style_down')
-<link rel="stylesheet" href="{{ asset('css/index.css') }}">
+<link rel="stylesheet" href="{{ asset('css/contact.css') }}">
 @endsection
 
 {{-- JS link here V --}}
@@ -22,10 +22,33 @@
 {{-- Html here V --}}
 @section('content')
 
-<section>
-    <h1>hi mister abd hi baasil </h1>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem hic quas facere fuga ab temporibus, recusandae, similique laborum reiciendis iste a, ducimus fugit dicta repudiandae. Facilis eius ratione optio reprehenderit.
-    </p>
+<div class="cover">
+    <h1>Contact US </h1>
+</div>
+<section class="row left-tright c4">
+   
+    <div class="col">
+        <div class="box_img">
+            <img src="{{ asset('img/svg/undraw_developer_activity_re_39tg.svg') }}" width="100%" alt="image">
+        </div>
+    </div>
+    <div class="col ">
+        <div class="box">
+            <div class="text">
+                <div class="black-bold c4">
+                    <h2>How We can help</h2>
+                    <p>Any time you call us on : <span class="c1" style="padding: 5px; border-radius: 30px;">00962781959937 </span>  <br/> <br/>Or you can fill the form belwo to we can contact you </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="row">
+    <div class="form">
+
+        <h1 class="c2">Get In Tuch </h1>
+    </div>
+    
 </section>
 @endsection
