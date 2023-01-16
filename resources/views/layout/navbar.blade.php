@@ -22,7 +22,9 @@
     <header><nav>
         <div class="logo">
             <div class="logo_img">
-                <h2>LordTik</h2>
+                <a href="{{ route('home') }}">
+                    <img src="img/logo/logo.png" width="100px" alt="">
+                </a>
             </div>
         </div>
         <div class="links">

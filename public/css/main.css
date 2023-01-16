@@ -6,6 +6,23 @@
     --c4: #DFF6FF;
 }
 
+.c1{
+    color: var(--c4) !important;
+    background-color: var(--c1) !important;
+}
+.c2{
+    color: var(--c4) !important;
+    background-color: var(--c2) !important;
+}
+.c3{
+    color: var(--c1) !important;
+    background-color: var(--c3) !important;
+}
+.c4{
+    color: var(--c1) !important;
+    background-color: var(--c4) !important;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -211,6 +228,7 @@ body{
     display: flex;
     width: 100%;
     min-height: 90vh;
+    max-height: 90vh;
     flex-wrap: wrap;
 }
 .row h1{
@@ -328,6 +346,25 @@ body{
     border-radius: 15px;
     
 }
+
+
+
+
+.cover{
+background-color: var(--c2);
+display: flex;
+width: 100%;
+min-height: 30vh;
+align-items: center;
+justify-content: center;
+}
+.cover h1{
+   
+    font-weight: bold;
+    color: var(--c4);
+}
+
+
 
 .lds-roller {
     display: inline-block;

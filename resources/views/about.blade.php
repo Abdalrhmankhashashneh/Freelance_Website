@@ -21,11 +21,26 @@
 
 {{-- Html here V --}}
 @section('content')
+<div class="cover">
+    <h1>About US </h1>
+</div>
+<section class="row left-tright c3">
+   
+    <div class="col">
+        <div class="box_img">
+            <img src="{{ asset('img/svg/undraw_positive_attitude_re_wu7d.svg') }}" width="100%" alt="image">
+        </div>
+    </div>
+    <div class="col">
+        <div class="box">
+            <div class="text">
+                <div class="black-bold c3">
+                    <h2>Who are we</h2>
+                    <p>We are a team of passionate people, and we try to work and be creative in our field. Here our story begins, and here is our goal.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<section>
-    <h1>hi mister abd hi baasil </h1>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem hic quas facere fuga ab temporibus, recusandae, similique laborum reiciendis iste a, ducimus fugit dicta repudiandae. Facilis eius ratione optio reprehenderit.
-    </p>
 </section>
 @endsection

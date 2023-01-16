@@ -1,9 +1,16 @@
+window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+});
+
+
 ciarcle = document.querySelector('.arrow');
 let row = document.querySelectorAll('.row');
 var pos = [];
 let i  = 0;
 let j;
-
+var header = document.querySelector('header');
+console.log(header.offsetHeight);
 for(j = 0; j < row.length; j++){
     var pos1 = row[j].offsetTop;
     pos.push(pos1);
@@ -50,7 +57,7 @@ if(i < row.length){
     i++;
     window.scrollTo(
         {
-            top: pos[i] - 75,
+            top: pos[i] - header.offsetHeight,
             behavior: 'smooth'
         }
         );
