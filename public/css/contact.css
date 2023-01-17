@@ -1,3 +1,9 @@
+:root{
+    --c1: #06283D;
+    --c2: #1363DF;
+    --c3: #47B5FF;
+    --c4: #DFF6FF;
+}
 .form{
     display: flex;
     justify-content: flex-start;
@@ -8,9 +14,44 @@
     
 }
 .form h1{
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 10vh;
     width: 100%;
+}
+.input-gruop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 70vh;
+}
+input{
+    width: 50%;
+    height: 5vh;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+textarea{
+    width: 50%;
+    height: 20vh;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--c4);
+    width: 50%;
+    text-align: left;
+}
+.btn{
+    width: 50%;
 }

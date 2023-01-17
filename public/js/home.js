@@ -2,8 +2,11 @@ window.scrollTo({
     top: 0,
     behavior: 'smooth'
 });
-
-
+ 
+var bottom = document.documentElement.offsetHeight;
+console.log(bottom);
+var footer = document.querySelector('footer');
+console.log(footer.offsetTop);
 ciarcle = document.querySelector('.arrow');
 let row = document.querySelectorAll('.row');
 var pos = [];
@@ -19,13 +22,30 @@ console.log(pos);
 
 
 window.addEventListener('scroll', function () {
-if(i + 1  == pos.length){
-    document.querySelector('.arrow').innerHTML = 'X';
-}
-else{
-    document.querySelector('.arrow').innerHTML = 'V';
-}
- var   top = window.scrollY;
+    var   top = window.scrollY;
+    
+    if(footer.offsetTop  < top ){
+        ciarcle.style.display = 'none';
+    }
+    else{
+        ciarcle.style.display = 'block';
+    }
+
+
+
+    if(i + 1  == pos.length){
+        document.querySelector('.arrow').innerHTML = 'X';
+    }
+    else{
+        if( i  == pos.length){
+            this.document.querySelector('.ciarcle').style.display = 'none';  
+        }
+        else
+        { 
+            this.document.querySelector('.ciarcle').style.display = 'flex';
+        document.querySelector('.arrow').innerHTML = 'V';
+        }
+    }
  if(i < 0 ){
         i = 0;
  }   

@@ -48,6 +48,19 @@
     <div class="form">
 
         <h1 class="c2">Get In Tuch </h1>
+        <div class="input-gruop">
+            <label for="name"> Full Name</label>
+            <input type="text" name="name">
+            <label for="email"> Email</label>
+            <input type="text" name="email">
+            <label for="subject"> Subject</label>
+            <input type="text" name="subject">
+            <label for="Message"> Message</label>
+            <textarea name="" id="" cols="30" rows="10" name="message">
+            </textarea>
+                <a href="" class="btn">Send</a>
+        </div>
+
     </div>
     
 </section>
